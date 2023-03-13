@@ -28,6 +28,6 @@ jobs:
         with:
           owner: merrcury
           repo: ideal-waddle
-          branch-name: main
+          branch_name: main
           token: ${{secrets.TOKEN}}
           workflow_name: blank.yml
