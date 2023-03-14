@@ -24,7 +24,7 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Trigger pipeline
-        uses: merrcury/trigger-workflow@1
+        uses: merrcury/trigger-workflow@1.1
         with:
           owner: merrcury
           repo: ideal-waddle
